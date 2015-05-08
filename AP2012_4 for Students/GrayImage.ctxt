@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=imageValues
+comment0.target=GrayImage(int[][])
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ GrayImage\n
+comment1.params=
+comment1.target=int[][]\ getPixelValues()
+comment1.text=added\ for\ testing
+comment2.params=
+comment2.target=int\ countWhitePixels()
+comment2.text=\ @return\ the\ total\ number\ of\ white\ pixels\ in\ this\ image\n\ <b>Postcondition\:</b>\ this\ image\ has\ not\ been\ changed.\ \n
+comment3.params=
+comment3.target=void\ processImage()
+comment3.text=\ Process\ this\ image\ in\ row-major\ order\ and\ decreases\ the\ value\ of\ each\ pixel\ at\n\ \ postion\ (row,\ col)\ by\ the\ value\ of\ the\ pixel\ at\ position\ (row\ +\ 2,\ col\ +\ 2)\ if\ it\ exists.\n\ \ Resulting\ values\ that\ would\ be\ less\ than\ BLACK\ are\ replaced\ by\ BLACK.\n\ \ Pixels\ for\ which\ there\ is\ no\ pixel\ at\ position\ (row\ +\ 2,\ col\ +\ 2)\ are\ unchanged.\n
+numComments=4
